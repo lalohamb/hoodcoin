@@ -9,7 +9,7 @@ describe('Token', () => {
   let token, accounts, deployer, receiver, exchange
 
   beforeEach(async () => {
-    const Token = await ethers.getContractFactory('Token')
+    const Token = await ethers.getContractFactory('Hoodc')
     token = await Token.deploy('Hood Coin', 'HOODc', '1000000')
 
     accounts = await ethers.getSigners()
