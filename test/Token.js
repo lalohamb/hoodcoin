@@ -25,9 +25,17 @@ describe('Token', () => {
     const totalSupply = tokens('1000000')
 
     it('has correct name', async () => {
-      expect(await token.name()).to.equal(name)
+    expect(await token.name()).to.equal(name)
     })
+            ////Fetch Token from Blockchaing////
+            //const Token = await ethers.getContractFactory("Hoodc")
 
+            ////Read token name////
+            //const name = await token.name()
+
+            ////Check that name is correct////
+            //expect(name).to.equal('Hood Coin')
+  
     it('has correct symbol', async () => {
       expect(await token.symbol()).to.equal(symbol)
     })
@@ -45,7 +53,6 @@ describe('Token', () => {
     })
 
   })
-
 
   describe('Sending Tokens', () => {
     let amount, transaction, result
