@@ -39,8 +39,8 @@
       ]
     },
     "/mnt/65cbb183-53b8-4330-b549-10779b2c2a94/_Downloads/00Mentorship/Mentorship/WK2/hoodcoin/node_modules/hardhat/console.sol": {
-      "lastModificationDate": 1738947232475,
-      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
+      "lastModificationDate": 1745352884159,
+      "contentHash": "681c532e816169606d13a5fe8b475074",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {
         "version": "0.8.9",

@@ -6,6 +6,10 @@ async function main() {
   const token = await Hoodc.deploy("Hood Coin", "HOODc", 1000000)
   await token.deployed()
   console.log(`Token Deployed to: ${token.address}`)
+  
+  //const [deployer] = await ethers.getSigners();
+  //console.log("Deploying with address:", token.address);
+
 }
 
 main()
@@ -14,3 +18,6 @@ main()
     console.error(error);
     process.exit(1);
   });
+
+
+  
